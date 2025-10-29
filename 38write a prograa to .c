@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+void main() 
+{
     int arr[10], key, found = 0;
 
     printf("Enter 10 integers:\n");
@@ -10,8 +11,10 @@ int main() {
     printf("Enter key to search: ");
     scanf("%d", &key);
 
-    for(int i = 0; i < 10; i++) {
-        if(arr[i] == key) {
+    for(int i = 0; i < 10; i++)
+        {
+        if(arr[i] == key)
+        {
             printf("Key found at position %d\n", i + 1);
             found = 1;
             break;
@@ -21,5 +24,5 @@ int main() {
     if(!found)
         printf("Key not found.\n");
 
-    return 0;
 }
+
