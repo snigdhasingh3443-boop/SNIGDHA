@@ -1,3 +1,6 @@
+//program to find key in array
+//devloped by snigdha 
+//date29/10/25
 #include <stdio.h>
 
 void main() 
@@ -25,4 +28,5 @@ void main()
         printf("Key not found.\n");
 
 }
+
 
